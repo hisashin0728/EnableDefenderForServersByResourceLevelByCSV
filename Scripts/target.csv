@@ -1,0 +1,4 @@
+TargetVM,TargetResourceGroup
+vmLinuxDfSPP001,rg-DfSPP-JapanEast
+vmLinuxDfSPP002,rg-DfSPP-JapanEast
+vmLinuxDfSPP003,rg-DfSPP-JapanEast
