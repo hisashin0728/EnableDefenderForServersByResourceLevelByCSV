@@ -57,5 +57,8 @@ PS C:\temp> Connect-AzAccount  -Subscription ‘xxxx-xxxx-xxxx-xxxx-xxxx’
 ```
 ![image](https://github.com/hisashin0728/EnableDefenderForServersByResourceLevelByCSV/assets/55295601/09599e19-45ec-4f8e-a965-ca26b6e82e5c)
 
+## 4.3 target.csv ファイルの編集
+スクリプト一式に含まれている ``target.csv`` を編集し、Defender for Servers P1 を有効化したいリソースを入力して下さい。
+![image](https://github.com/hisashin0728/EnableDefenderForServersByResourceLevelByCSV/assets/55295601/0020b9d2-f765-4ebe-ad8a-3178a8a58f51)
 
 
