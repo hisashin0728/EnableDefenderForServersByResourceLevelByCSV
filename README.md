@@ -10,3 +10,14 @@ Microsoft Defender for Servers をリソース単位で有効化する機能が 
 
 # 使い方
 [スクリプトフォルダ](https://github.com/hisashin0728/EnableDefenderForServersByResourceLevelByCSV/tree/main/Scripts)のファイル一式をダウンロードして、Azure PowerShell で実行します。
+ユーザーは ``target.csv`` ファイルに対象リソースを記入し、powershell スクリプト ``ResourceLevel-DfS-Enabled-csv.ps1`` を実行すると、対象リソースに一括適用することが出来ます。
+
+| ファイル  |  内容  |
+| ---- | ---- |
+| ResourceLevel-DfS-Check-csv.ps1  | csv ファイルに記入した Azure VM リソースに対して、API の状態をチェックしてリスト出力する PowerShell スクリプトです。|
+| ResourceLevel-DfS-Disabled-csv.ps1 | csv ファイルに記入した Azure VM リソースに対して、Microsoft Defender for Servers を無効化する PowerShell スクリプトです。|
+| ResourceLevel-DfS-Enabled-csv.ps1 | csv ファイルに記入した Azure VM リソースに対して、Microsoft Defender for Servers P1 を有効化する PowerShell スクリプトです。|
+| disable.json | Powershell 実行時に用いられる json ファイル (無効化用) |
+| enable.json | Powershell 実行時に用いられる json ファイル (Microsoft Defender for Servers P1 用) |
+| target.csv | Defender for Servers P1 を有効化したい対象リソースを記入する csv ファイル |
+
