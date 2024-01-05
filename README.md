@@ -67,4 +67,18 @@ csv ファイル記入後、リソース有効化の powershell スクリプト�
 - ResourceLevel-DfS-Enabled-ARC-csv.ps1 (Azure Arc リソース用)
 ![image](https://github.com/hisashin0728/EnableDefenderForServersByResourceLevelByCSV/assets/55295601/88eee626-217a-4a0d-ad95-18cab00186d8)
 
+## 4.5 Defender for Servers P1 無効化 / スクリプトの実行
+- ResourceLevel-DfS-Disabled-csv.ps1 (Azure VM リソース用)
+- ResourceLevel-DfS-Disabled-ARC-csv.ps1 (Azure Arc リソース用)
+csv ファイル記入後、リソース有効化の powershell スクリプトを実行して下さい。API 経由でフラグをリセットし Microsoft Defender for Servers P1 を無効化します。<BR>
+なお、本設定は Azure 基盤側の設定を無効化するものであるため、対象の Azure VM / Arc マシン上の MDE (Microsoft Defender for Endpoint) は別途オフボーディングスクリプトの実施が必要になります。
+![image](https://github.com/hisashin0728/EnableDefenderForServersByResourceLevelByCSV/assets/55295601/43a7f0f4-1031-414a-b0e8-fc8837552f65)
+
+## 4.6 API 状態チェック用スクリプト
+- ResourceLevel-DfS-Check-csv.ps1
+- ResourceLevel-DfS-Check-ARC-csv.ps1
+リソースの現状を知りたい場合は、本スクリプトを実行してください。
+![image](https://github.com/hisashin0728/EnableDefenderForServersByResourceLevelByCSV/assets/55295601/30e9191e-035a-4165-b7f2-1270a9b27045)
+
+
 
