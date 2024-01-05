@@ -61,4 +61,10 @@ PS C:\temp> Connect-AzAccount  -Subscription ‘xxxx-xxxx-xxxx-xxxx-xxxx’
 スクリプト一式に含まれている ``target.csv`` を編集し、Defender for Servers P1 を有効化したいリソースを入力して下さい。
 ![image](https://github.com/hisashin0728/EnableDefenderForServersByResourceLevelByCSV/assets/55295601/0020b9d2-f765-4ebe-ad8a-3178a8a58f51)
 
+## 4.4 Defender for Servers P1 有効化 / スクリプトの実行
+csv ファイル記入後、リソース有効化の powershell スクリプトを実行して下さい。API 経由でフラグが立ち、Microsoft Defender for Servers P1 が有効化されます。
+- ResourceLevel-DfS-Enabled-csv.ps1 (Azure VM リソース用)
+- ResourceLevel-DfS-Enabled-ARC-csv.ps1 (Azure Arc リソース用)
+![image](https://github.com/hisashin0728/EnableDefenderForServersByResourceLevelByCSV/assets/55295601/88eee626-217a-4a0d-ad95-18cab00186d8)
+
 
