@@ -1,5 +1,5 @@
 # 1. 概要
-このレポジトリは Microsoft Defender for Servers の新機能であるリソース単位での Defender for Servers P1 モードを有効化するためのスクリプトを提供しています。
+このレポジトリは Microsoft Defender for Servers の新機能である**リソース単位での** Defender for Servers P1 モードを有効化するためのスクリプトを提供しています。
 
 # 2. 新機能紹介公式ガイド
 Microsoft Defender for Servers をリソース単位で有効化する機能が 2023/12/23 に GA されています。詳細は以下リンクを参照下さい。
