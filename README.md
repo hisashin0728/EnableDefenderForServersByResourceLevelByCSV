@@ -20,7 +20,7 @@ Microsoft Defender for Servers をリソース単位で有効化する機能が 
 | ResourceLevel-DfS-Check-ARC-csv.ps1  | csv ファイルに記入した Azure Arc リソースに対して、API の状態をチェックしてリスト出力する PowerShell スクリプトです。|
 | ResourceLevel-DfS-Disabled-ARC-csv.ps1 | csv ファイルに記入した Azure Arc リソースに対して、Microsoft Defender for Servers を無効化する PowerShell スクリプトです。|
 | ResourceLevel-DfS-Enabled-ARC-csv.ps1 | csv ファイルに記入した Azure Arc リソースに対して、Microsoft Defender for Servers P1 を有効化する PowerShell スクリプトです。|
-| ResourceLevel-DfS-extension-ARC-csv | | csv ファイルに記入した Azure Arc リソースに対して、extension で ``MDE.Windows`` / ``MDE.Linux`` が適用されているかどうかを判別するスクリプトです。|
+| ResourceLevel-DfS-extension-ARC-csv.ps1 | csv ファイルに記入した Azure Arc リソースに対して、extension で ``MDE.Windows`` / ``MDE.Linux`` が適用されているかどうかを判別するスクリプトです。|
 | disable.json | Powershell 実行時に用いられる json ファイル (無効化用) |
 | enable.json | Powershell 実行時に用いられる json ファイル (Microsoft Defender for Servers P1 用) |
 | target.csv | Defender for Servers P1 を有効化したい対象リソースを記入する csv ファイル |
