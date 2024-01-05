@@ -38,8 +38,6 @@ Major  Minor  Patch  PreReleaseLabel BuildLabel
 ```
 - 実行ポリシーをリモート署名済みに設定
 ```
-
-```
 PS C:\temp> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 - Install-Module より、AzPowershell をインストールする
@@ -47,7 +45,9 @@ PS C:\temp> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 PS C:\temp> Install-Module -Name Az -Repository PSGallery -Force
 ```
 - 最新モジュールにアップデートしておく
+```
 PS C:\temp> Update-Module -Name Az -Force
+```
 
 ## 4.2 Azure テナントにログインする
 ``Connect-AzAccount -Subscription XXXX-XXXX-XXXX-XXXX-XXXX`` コマンドを用いて、操作をしたい対象のテナント/サブスクリプションにログインします。
